@@ -9,6 +9,8 @@ btn.addEventListener('click', function(){
           grow++
           percent.innerHTML = grow+"%";
           growth.style.width = grow+'%';
+          btn.innerHTML = "Downloading...";
+
      }, 50);
 
      setTimeout(() => {
